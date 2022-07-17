@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Caterina';
+    src: local('Caterina'),
+        url('/fonts/Caterina.woff2') format('woff2'),
+        url('/fonts/Caterina.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
