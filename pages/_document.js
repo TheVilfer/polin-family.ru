@@ -6,21 +6,21 @@ export default function Document() {
       <Head >
         <meta charSet="utf-8" />
         <link
-            rel="preload"
-            href="/fonts/Caterina.woff"
-            as="font"
-            type="font/woff"
-            crossOrigin="anonymous"
-          />
-          <link
-            rel="preload"
-            href="/fonts/Caterina.woff2"
-            as="font"
-            type="font/woff2"
-            crossOrigin="anonymous"
-          />
+          rel="preload"
+          href="/fonts/Caterina.woff"
+          as="font"
+          type="font/woff"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/fonts/Caterina.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
       </Head>
-      <body className='h-screen grid grid-cols-1 grid-rows-1 place-items-center'>
+      <body>
         <Main />
         <NextScript />
       </body>
